@@ -1,0 +1,1 @@
+#It is responsible for checking whether a given expression with brackets is balanced, using a stack to match opening and closing brackets and ensuring their proper nesting.

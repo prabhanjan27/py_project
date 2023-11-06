@@ -1,0 +1,1 @@
+#This class handles the interaction with the user, taking an expression as input, and using the class2 to determine whether the brackets in the input expression are balanced or not, providing feedback to the user accordingly.

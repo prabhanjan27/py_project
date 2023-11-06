@@ -1,0 +1,1 @@
+#It represents a stack data structure that allows pushing and popping brackets, which is used to keep track of opening brackets as they are encountered in an expression.
