@@ -11,3 +11,9 @@ class Stack:
 
     def is_empty(self):
         return len(self.items) == 0
+class BracketMapper:
+    def __init__(self):
+        self.brackets = {')': '(', '}': '{', ']': '['}
+
+    def is_match(self, open_bracket, close_bracket):
+        return self.brackets.get(close_bracket) == open_bracket
