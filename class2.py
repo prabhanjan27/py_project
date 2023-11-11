@@ -2,10 +2,15 @@
 class BracketValidator:
     def _init_(self):
         self.bracket_map = {')': '(', '}': '{', ']': '['}
+<<<<<<< HEAD
 
     def is_balanced(self, expression):
         stack = BracketStack()
 
+=======
+    def is_balanced(self, expression):
+        stack = BracketStack()
+>>>>>>> d3ff1c99d1c7749d751a375cecda85f77c81a3aa
         for char in expression:
             if char in '([{':
                 stack.push(char)
@@ -14,5 +19,9 @@ class BracketValidator:
                     continue
                 else:
                     return False
+<<<<<<< HEAD
 
         return stack.is_empty()
+=======
+        return stack.is_empty()
+>>>>>>> d3ff1c99d1c7749d751a375cecda85f77c81a3aa
